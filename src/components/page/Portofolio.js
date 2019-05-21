@@ -28,11 +28,12 @@ class Portofolio extends React.Component {
     render() {
      const {portofolio} = this.state
         return (
-          <div style={{width:'100%', paddingTop:50, paddingBottom:50}}>
+          <div>
             <span className="heading-meta">My Works</span>
                 <h2>Portofolio Info</h2>
                 <hr/>
                 <br/>
+                <div className="portofolio-content" style={{width:'100%', paddingTop:50, paddingBottom:50, marginLeft:-90}}>
                 <Row gutter={8}>
                   <Col offset={2} span={20}>
                     <Row gutter={16}>
@@ -40,6 +41,7 @@ class Portofolio extends React.Component {
                     </Row>
                   </Col>
                  </Row>
+                </div>
             </div>
         )
     }
