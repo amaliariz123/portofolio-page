@@ -65,6 +65,12 @@
 .icon-message:before {
   content: "\e9b9";
 }
+.icon-download4:before {
+  content: "\e0a9";
+}
+.icon-cloud-download2:before {
+  content: "\e0a7";
+}
 .icon-message-typing:before {
   content: "\e9f3";
 }

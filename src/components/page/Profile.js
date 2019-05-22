@@ -51,6 +51,9 @@ class Profile extends React.Component {
                                     </a>
 								</div>
                     </div>
+					<div className="view-cv">
+					<p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1ZWmVK71fR8io_S78vrkllAn-E8vK44DM/view?usp=sharing" target="_blank">View CV&nbsp;&nbsp;<i className="icon-download4" /></a></p>
+					</div>
                 </div>
                 </section>
               
